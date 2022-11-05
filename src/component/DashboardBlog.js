@@ -1,35 +1,36 @@
 import React from 'react'
+import style from '../App.module.css'
 
 const DashboardBlog = () => {
     return (
         <div>
             {/* blog */}
 
-            <section id="blog">
-                <section className="page-section bg-light" id="team">
-                    <div className="container">
-                        <div className="text-center">
+            <section id={style.blog}>
+                <section className={`${style.page_section} ${style.bg_light}`} id={style.team}>
+                    <div className={style.container}>
+                        <div className={style.text_center}>
                             <h2 ><strong>BLOG SUBSCRIPT</strong></h2>
                             <h3 >Everything you need to know about farming</h3>
                         </div>
 
-                        <div className="roundfig">
-                            <div className="blog-container">
-                                <img id="forCrops" src="https://i.pinimg.com/236x/18/02/74/180274cbb871ab555f4ac4a7f38fc523.jpg" ></img>
+                        <div className={style.roundfig}>
+                            <div className={style.blog_container}>
+                                <img id={style.forCrops} src="https://i.pinimg.com/236x/18/02/74/180274cbb871ab555f4ac4a7f38fc523.jpg" ></img>
                                 <h4><strong>Foereign crops ideas </strong></h4>
-                                <p className="text-muted">procedure to grow them</p>
+                                <p className={style.text_muted}>procedure to grow them</p>
                             </div>
 
-                            <div className="blog-container">
-                                <img id="newsltr" src="https://www.adobe.com/express/discover/templates/media_10ae1dd87c6cb5ef7576481603384dc77a2e3864b.jpeg?width=400&format=jpeg&optimize=medium"></img>
+                            <div className={style.blog_container}>
+                                <img id={style.newsltr} src="https://www.adobe.com/express/discover/templates/media_10ae1dd87c6cb5ef7576481603384dc77a2e3864b.jpeg?width=400&format=jpeg&optimize=medium"></img>
                                 <h4><strong>Newsletters</strong> </h4>
-                                <p className="text-muted">Farming Legends and Their Theories</p>
+                                <p className={style.text_muted}>Farming Legends and Their Theories</p>
                             </div>
 
-                            <div className="blog-container">
-                                <img id="ff" src="https://c8.alamy.com/comp/2F2A2FA/woman%60s-hand-holding-green-apple-nutrition-facts-on-grey-background-dietary-food-and-vitamins-concept-template-for-product-advertising-2F2A2FA.jpg" ></img>
+                            <div className={style.blog_container}>
+                                <img id={style.ff} src="https://c8.alamy.com/comp/2F2A2FA/woman%60s-hand-holding-green-apple-nutrition-facts-on-grey-background-dietary-food-and-vitamins-concept-template-for-product-advertising-2F2A2FA.jpg" ></img>
                                 <h4><strong>Food Facts</strong></h4>
-                                <p className="text-muted">Origin and Uses</p>
+                                <p className={style.text_muted}>Origin and Uses</p>
                             </div>
                         </div>
 

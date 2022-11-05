@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Dancing+Script:wght@500&display=swap');
 
-*{ /* this is to set margin and padding look same in all browser */
-    margin:0px;
-    padding:0px;
+* {
+    /* this is to set margin and padding look same in all browser */
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Cormorant SC', serif;
-   
+
 }
-.button{
+
+.button {
     background-color: #395144;
     font-size: 20px;
     font-style: initial;
@@ -17,82 +19,94 @@
     border-radius: 10rem;
     padding: 14px 40px;
 }
-.button:hover{
+
+.button:hover {
     color: grey;
     cursor: grab;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h1{
-  font-size: 50px;
-  line-height: 64px; 
-  color: black;
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
 }
-h2{
+
+h2 {
     font-size: 44px;
     line-height: 54px;
     color: black;
 }
-h4{
+
+h4 {
     font-size: 20px;
-    color:black;
+    color: black;
 }
-h6{
+
+h6 {
     font-weight: 700px;
     font-size: 12px;
 }
-p{
-   font-size: 16px;
-   color:aliceblue;
-   margin:15px 0 20px 0;
-}
-.section-p1{
-  padding: 40px 80px;
-}
-.section-m1{
-    padding:40px 0;
+
+p {
+    font-size: 16px;
+    color: aliceblue;
+    margin: 15px 0 20px 0;
 }
 
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    padding: 40px 0;
+}
 
 
-#main{
-  background-image: url("./resource/plant.jpeg");
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top 25% right 0;
-  padding: 0 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  }
-  #main h1{
-      color: #FFEE63;
-  }
-  #main h2{
-      color: #FFEE63;
-  }
-  #main h3,h4{
-      color: #FFEE63;
-  }
-  #main button{
-     
-      background-color: transparent;
-      color: black;
-      border: 0;
-      padding: 25px 65px 35px 14px ;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      font-weight: 700px;
-      font-size: 120%;
-      font-weight: 900;
-      font-style:oblique;
-      
-  }
 
- 
+#main {
+    background-image: url("./resource/plant.jpeg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main h1 {
+    color: #FFEE63;
+}
+
+#main h2 {
+    color: #FFEE63;
+}
+
+#main h3,
+h4 {
+    color: #FFEE63;
+}
+
+#main button {
+
+    background-color: transparent;
+    color: black;
+    border: 0;
+    padding: 25px 65px 35px 14px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700px;
+    font-size: 120%;
+    font-weight: 900;
+    font-style: oblique;
+
+}
+
+
 
 /* #slide{
     
@@ -109,92 +123,118 @@ p{
 #slide p{
     color: #EED7CE;
 } */
-#team{
+#team {
     background-color: black;
 }
-#blog h3{
+
+#blog h3 {
     align-items: center;
 
 }
-.row-cols-lg-4 > * {
+
+.row-cols-lg-4>* {
     flex: 0 0 auto;
     width: 25%;
-  }
-  .text-center{
-      text-align: center ; 
-      margin: auto;
-  }
-  .blog-container{
-      margin-left: 10px;
-      margin-right: 10px;
-      align-items: center;
-      margin: auto;
-      justify-content: center;
-      text-align: center;
-      
-  }
-  .roundfig{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      justify-content: center;
-      
-  }
-  .roundfig img{
-      border-radius: 80%;
-  }
-  .roundfig h4{
-      color: goldenrod;
-  }
-  #forCrops{
-      height: 250px;
-      width: 250px;
+}
 
-  }
-  #newsltr{
-      height: 250px;
-      width: 250px;
-  }
-  #ff{
+.text_center {
+    text-align: center;
+    margin: auto;
+}
+
+.blog_container {
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.roundfig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.roundfig img {
+    border-radius: 80%;
+}
+
+.roundfig h4 {
+    color: goldenrod;
+}
+
+#forCrops {
+    height: 250px;
+    width: 250px;
+
+}
+
+#newsltr {
+    height: 250px;
+    width: 250px;
+}
+
+#ff {
     height: 250px !important;
     width: 250px;
-  }
-  .text-muted{
-      text-emphasis: 4px;
-  }
-  section#contact {
+}
+
+.text_muted {
+    text-emphasis: 4px;
+}
+
+section#contact {
     background-color: #212529;
     background-image: url(./resource/mapImage.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-  .page-section {
+
+.page_section {
     padding: 6rem 0;
 }
-  .col-md-6 {
+
+.col-md-6 {
     flex: 0 0 auto;
     width: 50%;
-  }
-  .section-heading{
-      color: white;
-      text-emphasis: 20px;
-  }
-  .btn.disabled {
+}
+
+.section-heading {
+    color: white;
+    text-emphasis: 20px;
+}
+
+.btn.disabled {
     pointer-events: none;
     opacity: 0.65;
 }
-.btn-primary:disabled, .btn-primary.disabled {
+
+.btn-primary:disabled,
+.btn-primary.disabled {
     color: #fff;
     background-color: #ffc800;
     border-color: #ffc800;
 }
-.btn:disabled, .btn.disabled, fieldset:disabled .btn {
+
+.btn:disabled,
+.btn.disabled,
+fieldset:disabled .btn {
     pointer-events: none;
     opacity: 0.65;
 }
-button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
     cursor: pointer;
 }
+
 /* .btn {
     display: inline-block;
     font-weight: 400;
@@ -228,7 +268,8 @@ input, button, select, optgroup, textarea {
     line-height: inherit;
 } */
 /* help */
-@media (min-width: 768px)
+@media (min-width: 768px){
+
 /* .timeline > li {
     min-height: 100px;
     margin-bottom: 100px;
@@ -241,20 +282,23 @@ input, button, select, optgroup, textarea {
 * *::before *::after {
     box-sizing: border-box;
 }
-user agent stylesheet
-li {
+}
+
+user agent stylesheet li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
 .timeline {
     position: relative;
     padding: 0;
     list-style: none;
 }
-user agent stylesheet
-ul {
+
+user agent stylesheet ul {
     list-style-type: disc;
 }
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -308,7 +352,9 @@ ul {
     --bs-body-color: #212529;
 
 }
-:host, :root {
+
+:host,
+:root {
     --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
     --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
     --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
@@ -316,17 +362,22 @@ ul {
     --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
     --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
 }
-.timeline > li .timeline-panel:before {
+
+.timeline>li .timeline-panel:before {
     right: auto;
     left: -15px;
     border-right-width: 15px;
     border-left-width: 0;
 }
 
- *, *::before, *::after {
-    box-sizing: border-box;}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
-:host, :root {
+:host,
+:root {
     --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
     --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
     --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
@@ -334,17 +385,25 @@ ul {
     --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
     --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
 }
-.timeline > li:after, .timeline > li:before {
+
+.timeline>li:after,
+.timeline>li:before {
     display: table;
     content: " ";
 }
-*, *::before, *::after {
+
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
-.timeline > li:after {
+
+.timeline>li:after {
     clear: both;
 }
-.timeline > li:after, .timeline > li:before {
+
+.timeline>li:after,
+.timeline>li:before {
     display: table;
     content: " ";
 }

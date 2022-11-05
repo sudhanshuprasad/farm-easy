@@ -1,12 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
+import style from './App.module.css';
 import Home from './component/Home';
 import Navbar from './component/Navbar';
 import Login from './component/Login';
 import Blog from './component/Blog';
 import Details from './component/Details';
 
- 
 
 function App() {
   return (

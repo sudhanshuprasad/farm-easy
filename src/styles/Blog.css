@@ -1,51 +1,58 @@
-
+/* 
 body{
     background-image: url(https://i.pinimg.com/564x/94/8a/92/948a92dff6895d20c05602e670cdfd20.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-}
-#blogname{
+} */
+#blogname {
     margin: 80px;
-   color: rgb(241, 215, 215);
-   text-align: center;
-   margin-bottom: 10px;
+    color: rgb(241, 215, 215);
+    text-align: center;
+    margin-bottom: 10px;
 
 }
-#forcropshead{
+
+#forcropshead {
     color: grey;
     border: 1px;
 }
-#cards{
+
+#cards {
     margin-top: 10px;
 
 }
-.card{
+
+.card {
     margin: 10px;
     height: 300px;
     width: 300px;
-    
+
 }
-.forcrops{
+
+.forcrops {
     margin: 40px;
-   display: flex;
-   padding: 5px;
-   justify-content: space-around;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
 }
-.newsletter{
+
+.newsletter {
     margin: 40px;
-   display: flex;
-   justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
-#newsl{
+
+#newsl {
     color: grey;
 }
 
-.foodfacts{
+.foodfacts {
     margin: 40px;
-   display: flex;
-   justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
-#ff{
+
+#ff {
     color: grey;
     height: 54px;
 }
